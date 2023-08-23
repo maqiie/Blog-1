@@ -1,8 +1,9 @@
 /* Footer.css */
 
 .footer {
-    background-color: #f0f0f0;
+    background-color: #000000;
     padding: 20px;
+    color: white;
   }
   
   .footer-content {
@@ -20,7 +21,7 @@
     margin-bottom: 10px;
   }
   
-  .social-links {
+  /* .social-links {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -28,12 +29,12 @@
   
   .social-link {
     text-decoration: none;
-    color: #333;
+    color: #fff2f2;
     transition: color 0.3s;
-  }
+  } */
   
   .social-link:hover {
-    color: #007bff; /* Change color on hover (blue) */
+    color: #ff9d00; /* Change color on hover (blue) */
   }
   
   .footer-bottom {
@@ -45,4 +46,14 @@
     margin: 0;
   }
   
+  @media screen and (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
   
+    .footer-section {
+      margin: 20px 0;
+    }
+  }

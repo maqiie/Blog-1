@@ -12,7 +12,14 @@ function Navbar() {
       <ul className="nav-list">
         <li className="nav-item"><a href="#" className="nav-link">Home</a></li>
         <li className="nav-item"><a href="#" className="nav-link">About</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Services</a></li>
+        <li>
+            <a href="#">Blogs</a>
+            <ul>
+              <li><a href="#">Technology</a></li>
+              <li><a href="#">Health</a></li>
+              <li><a href="#">Education</a></li>
+            </ul>
+          </li>
         <li className="nav-item"><a href="#" className="nav-link">Portfolio</a></li>
         <li className="nav-item"><a href="#" className="nav-link">Contact</a></li>
       </ul>
@@ -20,7 +27,6 @@ function Navbar() {
         <Link to="/auth" className="nav-link">
           <FaUser className="user-icon" />
         </Link>
-        <input type="text" className="search-input" placeholder="Search" />
       </div>
     </nav>
   );
