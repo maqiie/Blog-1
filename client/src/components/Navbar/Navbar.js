@@ -13,7 +13,7 @@ function Navbar() {
         <li className="nav-item"><a href="#" className="nav-link">Home</a></li>
         <li className="nav-item"><a href="#" className="nav-link">About</a></li>
         <li>
-            <a href="#">Blogs</a>
+            <a href="/blog">Blogs</a>
             <ul>
               <li><a href="#">Technology</a></li>
               <li><a href="#">Health</a></li>
@@ -21,7 +21,7 @@ function Navbar() {
             </ul>
           </li>
         <li className="nav-item"><a href="#" className="nav-link">Portfolio</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Contact</a></li>
+        <li className="nav-item"><a href="/createpost" className="nav-link">create</a></li>
       </ul>
       <div className="nav-right">
         <Link to="/auth" className="nav-link">

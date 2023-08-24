@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import AuthComponent from "./components/register/AuthComponent";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Blog from "./components/Blogs/Blogs";
+import CreatePost from "./components/createpost/createpost";
 function App() {
   return (
     <Router>
@@ -18,6 +20,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
         <Route path="/auth" element={<AuthComponent/>} />
+        <Route path="/blog" element={<Blog/>} />
+        <Route path="/createpost" element={<CreatePost/>} />
         </Routes>
       </div>
 
