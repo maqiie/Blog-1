@@ -10,7 +10,7 @@ function Navbar() {
         <Link to="/" className="nav-logo">iBlog.</Link> {/* Make the logo a Link */}
       </div>
       <ul className="nav-list">
-        <li className="nav-item"><a href="#" className="nav-link">Home</a></li>
+        <li className="nav-item"><a href="/" className="nav-link">Home</a></li>
         <li className="nav-item"><a href="#" className="nav-link">About</a></li>
         <li>
             <a href="/blog">Blogs</a>
