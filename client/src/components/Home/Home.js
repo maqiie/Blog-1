@@ -96,7 +96,9 @@ function Home() {
   ];
 
   return (
+
   
+
   <div className="wrapper">
       <h1>"Empowering Perspectives, Inspiring Lives."</h1>
       <input type="text" className="search-input" placeholder="Search" />
@@ -112,20 +114,27 @@ function Home() {
                 className="front"
                 style={{ backgroundImage: `url(${card.image})` }}
               >
-                
                   <div className="inner">
                     <p>{card.title}</p>
                     <span>Start Blog</span>
                   </div>
+
                
               </div>
               <div className="back">
               <Link to={card.link} className="card-link">
-                <div className="inner">
+
+              </div>
+              <div className="back">
+              <Link to={card.link} className="card-link">
+
+            <div className="inner">
                   <p>{card.description}</p>
                 </div>
                 </Link>
               </div>
+             
+
             </div>
           </div>
         ))}
