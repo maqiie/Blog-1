@@ -86,7 +86,7 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Follow Us</h3>
           <div className="social-links">
-            <p>yoi</p>
+            {/* <p>yoi</p> */}
             <a href="#" className="social-link"><FaFacebookF /> Facebook</a>
             <a href="#" className="social-link"><FaTwitter /> Twitter</a>
             <a href="#" className="social-link"><FaInstagram /> Instagram</a>

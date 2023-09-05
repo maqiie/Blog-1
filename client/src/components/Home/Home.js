@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css"; // Import your CSS file if needed
@@ -95,38 +96,9 @@ function Home() {
   ];
 
   return (
-  //   <div className="wrapper">
-  //     <h1>"Empowering Perspectives, Inspiring Lives."</h1>
-  //     <input type="text" className="search-input" placeholder="Search" />
 
-  //     <div className="cols">
-  //       {cardsData.map((card, index) => (
-  //         <div
-  //           className="col"
-  //           key={index}
-  //           onTouchStart={(e) => e.currentTarget.classList.toggle("hover")}
-  //         >
-  //           <div className="container">
-  //             <div
-  //               className="front"
-  //               style={{ backgroundImage: `url(${card.image})` }}
-  //             >
-  //               <div className="inner">
-  //                 <p>{card.title}</p>
-  //                 <span>Start Blog</span>
-  //               </div>
-  //             </div>
-  //             <div className="back">
-  //               <div className="inner">
-  //                 <p>{card.description}</p>
-  //               </div>
-  //             </div>
-  //           </div>
-  //         </div>
-  //       ))}
-  //     </div>
-  //   </div>
-  // );
+  
+
   <div className="wrapper">
       <h1>"Empowering Perspectives, Inspiring Lives."</h1>
       <input type="text" className="search-input" placeholder="Search" />
@@ -146,11 +118,17 @@ function Home() {
                     <p>{card.title}</p>
                     <span>Start Blog</span>
                   </div>
+
+               
               </div>
               <div className="back">
               <Link to={card.link} className="card-link">
 
-                <div className="inner">
+              </div>
+              <div className="back">
+              <Link to={card.link} className="card-link">
+
+            <div className="inner">
                   <p>{card.description}</p>
                 </div>
                 </Link>
